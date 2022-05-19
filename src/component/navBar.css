@@ -1,0 +1,53 @@
+
+.toggel-wrapper{
+    width: 70px;
+    height: 35px;
+    border-radius: 25px;
+    background-color: #DFDFDF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 22px;
+}
+.help-icon{
+ width: 18px;
+}
+.flag-icon{
+    width: 20px;
+}
+.main-logo{
+    font-size: 30px;
+    font-weight: 600;
+    color: #FD2E5A !important;
+    line-height: 36.31px;
+}
+.navbar{
+    background-color: white;
+    align-items: center;
+}
+.navbar-light .navbar-toggler {
+     color: unset !important;
+     border-color: unset !important;
+}
+.navbar-toggler {
+    color: unset !important;
+    border-color: unset !important;
+    border: unset;
+}
+.navbar-toggler:focus {
+   
+    box-shadow: none;
+}
+.navbar-toggler-icon {
+    background-image: url(../assets/menu.png) !important;
+}
+@media only screen and (max-width: 768px){
+
+.main-logo {
+    font-size: 22px;
+  }
+  .toggel-wrapper {
+    display: none;
+}
+
+}
