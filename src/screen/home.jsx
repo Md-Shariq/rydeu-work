@@ -15,6 +15,7 @@ import instagramIcon from '../assets/InstagramIcon.png'
 import twitterIcon from '../assets/twitterIcon.png'
 import linkedinIcon from '../assets/linkedinIcon.png'
 import messageIcon from '../assets/messageIcon.png'
+import vectorIcon from '../assets/Vector.png'
 
 export default function Home() {
     return (
@@ -29,23 +30,33 @@ export default function Home() {
                     <div className='row'>
                         <div className='col-md-6'>
                             <div className='faq-box-wrapper'>
+                                <div className='d-flex'>
                                 <div>
                                     <img src={faqIcon} alt="" className='icon' />
                                 </div>
                                 <div>
                                     <p className='fw-700 m-0 fs-16'>FAQ</p>
-                                    <p className='fw-500 text-secondary fs-16 m-0'>Lorem ipsum doolor sit amet</p>
+                                    <p className='detail-heading'>Lorem ipsum doolor sit amet</p>
+                                </div>
+                                </div>
+                                <div className='d-md-none d-block'>
+                                    <img src={vectorIcon} alt="" width="17px" />
                                 </div>
                             </div>
                         </div>
                         <div className='col-md-6'>
                             <div className='faq-box-wrapper'>
+                                <div className='d-flex'>
                                 <div>
                                     <img src={travelIcon} alt="" className='icon pe-2' />
                                 </div>
                                 <div>
                                     <p className='fw-700 m-0 fs-16'>Travel Guide</p>
-                                    <p className='fw-500 text-secondary fs-16 m-0'>Lorem ipsum doolor sit amet</p>
+                                    <p className='detail-heading'>Lorem ipsum doolor sit amet</p>
+                                </div>
+                                </div>
+                                <div  className='d-md-none d-block'>
+                                    <img src={vectorIcon} alt="" width="17px" />
                                 </div>
                             </div>
                         </div>
@@ -59,7 +70,7 @@ export default function Home() {
                                 </div>
                                 <div>
                                     <p className='fw-700 m-0 mb-2 fs-16 text-dark'>Chat</p>
-                                    <p className='fw-500 text-secondary fs-16 m-0'>Lorem ipsum doolor sit amet</p>
+                                    <p className='detail-heading'>Lorem ipsum doolor sit amet</p>
                                 </div>
                             </button>
                         </h2>
@@ -91,7 +102,7 @@ export default function Home() {
                                 </div>
                                 <div>
                                     <p className='fw-700 m-0 mb-2 fs-16 text-dark'>Social</p>
-                                    <p className='fw-500 text-secondary fs-16 m-0'>Lorem ipsum doolor sit amet</p>
+                                    <p className='detail-heading'>Lorem ipsum doolor sit amet</p>
                                 </div>
                             </button>
                         </h2>
@@ -127,7 +138,7 @@ export default function Home() {
                                 </div>
                                 <div>
                                     <p className='fw-700 m-0 mb-2 fs-16 text-dark'>Send Query</p>
-                                    <p className='fw-500 text-secondary fs-16 m-0'>Lorem ipsum doolor sit amet</p>
+                                    <p className='detail-heading'>Lorem ipsum doolor sit amet</p>
                                 </div>
                             </button>
                         </h2>
